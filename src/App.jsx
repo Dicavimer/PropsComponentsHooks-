@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Card from './components/Card'
 import Contador from './components/Contador'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <Contador setCount={setCount} />
       </div>
       <Card Lista={Lista} Count={count}/>
+      <Footer/>
     </>
 
   )

@@ -52,3 +52,9 @@ a{
  background: none;
  margin-bottom: 2rem;
 }
+
+.Final{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
