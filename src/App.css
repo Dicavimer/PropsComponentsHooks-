@@ -1,3 +1,54 @@
-h2{ 
-  color: brown;
+h2 {
+  color: #6A1BB1;
+}
+
+.card{
+  border: 5px solid violet ;
+  width: 300px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 2rem;
+}
+
+.contador{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button{
+  background-color: violet ;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 3px;
+}
+
+button:hover {
+  background-color: #6A1BB1;
+}
+
+a{
+  color: white;
+  background-color: violet;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5rem;
+}
+
+.footer{
+ margin: 0 auto;
+ background: none;
+ margin-bottom: 2rem;
 }
