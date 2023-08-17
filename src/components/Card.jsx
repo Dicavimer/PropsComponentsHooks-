@@ -14,7 +14,7 @@ const Card = (props) => {
                                 <h5 className="card-title">{ListaTwo.Titulo}</h5>
                                 <h6 className="Content">Contador:{props.Count}</h6>
                                 <p className="card-text">{ListaTwo.Contenido}</p>
-                                <p className="card-cita">{ListaTwo.Cita}</p>
+                                <h6 className="card-cita">{ListaTwo.Cita}</h6>
                             </div>
                             <div className="footer">
                                 <a href="https://www.biblia.es/reina-valera-1960.php">{ListaTwo.Boton}</a>
